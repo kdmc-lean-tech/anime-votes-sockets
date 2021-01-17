@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.add-anime-container {
+  margin-top: 25px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
+}
+
+.add-anime-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.add-anime-title {
+  text-align: center;
+  color: #3f51b5;
+}
+
+.add-anime-button {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.anime-list-container {
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 15px;
+  height: auto;
+}
+
+.validate-form-field {
+  color: red;
+}
+
+.status-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #3f51b5;
+  margin: 10px;
+}
+
+.status-online {
+  color: chartreuse;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.status-offline {
+  color: red;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.votes-label {
+  font-size: 20px;
+}
+
+.status-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
